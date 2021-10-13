@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --openfont:'Open Sans', sans-serif;
+}
+
+.container{
+    /* background-color: darkgrey; */
+    height: 100vh;
+    width:100vw;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+
+.container .col1{
+    width:300px;
+    height:400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #10a9e6;
+    margin-right:50px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    box-shadow: 0px 0px 10px 2px #ff029e;
+}
+
+.container .col1 #great{
+    margin-bottom:10px;
+    font-size:20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:400;
+}
+.container .col1 #number{
+    outline: none;
+    margin-bottom:20px;
+    padding: 0px 10px;
+    height: 30px;
+    /* width: 150px; */
+    height:20px;
+    text-align: center;
+}
+
+.container .col1 #btn{
+    padding:5px 10px;
+    font-family:'Open Sans', sans-serif;
+    font-weight:700;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border:1px solid #ddd;
+    cursor: pointer;
+}
+/*=================
+col1 css ends
+=================*/
+
+.container .col2{
+    width:300px;
+    height:400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background-color: #10a9e6;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    box-shadow: 0px 0px 10px 2px #ff029e;
+}
+
+.container .col2 input{
+    padding: 5px 5px;
+    margin-top:10px;
+    outline: none;
+    text-align: center;
+}
+
+.container .col2 #all{
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+.container .col2 #avg{
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+.container .col2 #btnall{
+    padding:5px 10px;
+    font-family:'Open Sans', sans-serif;
+    font-weight:700;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border:1px solid #ddd;
+    cursor: pointer;
+}
+/*=================
+col2 css ends
+=================*/
