@@ -40,21 +40,15 @@ function great(){
 
 
 function allsubj(){
-    var input1 = document.getElementById("input1").innerHTML.value;
-    var input2 = document.getElementById("input2").innerHTML.value;
-    var input3 = document.getElementById("input3").innerHTML.value;
-    var input4 = document.getElementById("input4").innerHTML.value;
-    var input5 = document.getElementById("input5").innerHTML.value;
+    var inputOne= parseInt(document.getElementById("input1").value);
+    var inputTow = parseInt(document.getElementById("input2").value);
+    var inputThree = parseInt(document.getElementById("input3").value);
+    var inputFour = parseInt(document.getElementById("input4").value);
+    var inputFive = parseInt(document.getElementById("input5").value);
     
-    var alladd = input1+input2+input3+input4+input5;
+    var alladd = inputOne + inputTow + inputThree + inputFour + inputFive;
+    var avg = alladd / 5;
     document.getElementById("all").innerHTML = alladd;
-    // var average = alldd / 5;
-
-    // var a= 2;
-    // var b = 2;
-    // var c = 2;
-    // var d = 2;
-    // var e = 2;
-    // var all = a+b+c+d+e;
+    document.getElementById("avg").innerHTML = avg;
 }
 
